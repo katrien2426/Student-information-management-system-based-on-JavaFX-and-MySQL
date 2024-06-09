@@ -54,7 +54,7 @@ import java.time.LocalDate;
 ```Java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/StudentInfo";
 private static final String DB_USER = "root";
-private static final String DB_PASSWORD = "Wang-2242426";
+private static final String DB_PASSWORD = "******";
 ```
 
 硬编码密码在代码中是不安全的做法，可以使用环境变量或配置文件来存储敏感信息。
